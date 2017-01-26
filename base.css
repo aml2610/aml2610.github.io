@@ -423,24 +423,4 @@ footer #footer-content #other-links > p > a {
     }
 }
 
-/* Taken from https://lifepluslinux.blogspot.co.uk/2017/01/look-before-you-paste-from-website-to.html */
-.surprise-surprise {
-  color: #FFFFFF; // set it to that of the page
-  font-size: 0px; // make it small
-  // move it out of the way
-  position: absolute;
-  left: -100px;
-  top: -100px;
-  height: 0px;
-  z-index: -100;
-  display: inline-block;
-  // make it un-selectable
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 /***** aml was here *****/

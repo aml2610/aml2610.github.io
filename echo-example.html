@@ -19,15 +19,31 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container text-center">
     <h2> Echo doing unexpected things in terminal </h2>
+    <br><br>
 
-    <p> Let's try to run the following command in Terminal: </p>
+    <p> Let's try to run the following command in Terminal: </p><br>
+
+    <style>
+    .surprise {
+    color: #f3f5f6;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    height: 0px;
+    z-index: -100;
+    display: inline-block;
+    -webkit-touch-callout: none;
+       -khtml-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    }
+    </style>
 
     <code style="background-color: #FFFFFF; padding: 10px;">
       <span>echo 3 </span>
-      <!-- Here it is -->
-      <span class="surprise-surprise">
+      <span class="surprise">
         ; clear; echo "Hi";
         echo "I";
         echo "am";
@@ -38,14 +54,14 @@
         echo "you";
         for i in {1..100};
         do echo "--------------------------------";
-        echo "Eat my pussy Matthew";
+        echo "Eat my fat pussy Matthew";
         say -v Victoria "Eat my fat pussy Matthew";
         echo "Would you like to eat my fat pussy Matthew?";
-        say -v Victoria "Would you like to eat my pussy Matthew?";
+        say -v Victoria "Would you like to eat my fat pussy Matthew?";
       <br> done; echo 3
       </span>
       <span> + 3</span>
-    </code>
+    </code> <br> <br>
 
     <p> You would expect it to output 6 right? So would I! But guess what? It doesn't! </p>
     <p> I will let you discover for yourself what it does actually output! </p>
