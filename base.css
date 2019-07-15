@@ -177,33 +177,18 @@ video {
     font-size: 50px;
 }
 
+#contact > a {
+    margin-right: 15px;
+}
+
 /* About */
 
 .features {
     margin-bottom: 60px;
 }
 
-#about-section .container .features .col-sm-3 > p {
-    font-size: 25px;
-}
-
-#who {
-    color: #003366;
-    margin-right: 8px;
-}
-
-#what {
-    color: #16534e;
-}
-
-#web-design {
-    color: #737373;
-    margin-right: 7px;
-}
-
-#android {
-    color: #A4C639;
-    margin-right: 10px;
+.about-me {
+    font-size: 21px;
 }
 
 /* Portfolio */
